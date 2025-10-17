@@ -1,12 +1,13 @@
 body {
-    max-width: 80%;
-    max-height: 100%;
+    min-height: 100vh;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 2rem 0rem 0rem 10rem;
-    background: linear-gradient(to bottom, #4E3C08,#4D2804, #000000);
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 2rem 1rem;
+    background: linear-gradient(to bottom, #4E3C08, #4D2804, #000000);
 }
+
 
 /*======================BANNER========================*/
 
@@ -41,7 +42,7 @@ h1 {
     background:linear-gradient(to left, #1e5657,#3a4e1a);
     border-radius: 3rem ;
     box-shadow: inset 0px 0px 20px #000000;
-    margin: 5rem 15rem;
+    margin: 5rem 32rem;
 }
 
 h2{
@@ -117,17 +118,16 @@ font-family: Cambria, Cochin, Georgia, Times, 'Bellavoir Serif', serif;
 }
 
 .yourHistoryClass{
-    
     color: aliceblue;
     font-size: 2rem;
-    display: grid
-;
+    display: grid;
     grid-template-columns: 1fr;
     grid-auto-rows: minmax(60px, auto);
-    width: 28rem;
+    width: 100%;
+    max-width: 850px;  /* Limite la largeur maximale */
     min-height: 20rem;
-    margin: 2rem 45rem;
-    padding: 2rem 13rem;
+    margin: 2rem auto;  /* auto pour centrer horizontalement */
+    padding: 2rem 4rem;
     text-align: center;
     background: linear-gradient(to top, #1a1919, #7e7e7e, #1a1919);
     box-shadow: inset 6px 2px 20px black;
@@ -236,10 +236,64 @@ color: #F7F7F7;
     margin-top: 1rem;
 }
 
+
+
  /*==========================RESPONSIV===========================*/
 
  @media (max-width: 768px){
     body {
+        margin: 1rem;
+        max-width: 100%;
+    }
+
+    .banner {
+        height: 300px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    h1 {
+        font-size: 2rem;
+        padding: 0;
+    }
+
+    .intro {
+        margin: 2rem 1rem;
+    }
+
+    h2 {
+        padding: 1rem;
+    }
+
+    .buttonRandom {
+        margin: 1rem auto;
+        width: 90%;
+    }
+
+    .table {
+        width: 95vw;
+        gap: 1rem;
+    }
+
+    .statclass, .raceHistory {
+        max-width: 100%;
+        padding: 1rem 2rem;
+    }
+
+    .yourHistoryClass {
+        width: 90%;
+        margin: 2rem auto;
+        padding: 2rem;
+    }
+
+    .textHisory {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1024px){
+
+       body {
         margin: 1rem;
         max-width: 100%;
     }
