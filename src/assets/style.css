@@ -1,0 +1,290 @@
+body {
+    max-width: 80%;
+    max-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem 0rem 0rem 10rem;
+    background: linear-gradient(to bottom, #4E3C08,#4D2804, #000000);
+}
+
+/*======================BANNER========================*/
+
+.banner {
+    background: url(./image/bannierJDR.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 900px;
+    border-radius: 12px;
+    box-shadow: inset 0px 0px 20px black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    text-shadow: 0 0 20px #000;
+    max-width: 100%;
+    margin: auto;
+}
+
+h1 {
+    color: #8f5b1b;
+   text-decoration: underline;    
+    font-size: 3rem;
+    font-family: "Playwrite AU QLD";
+    padding-right: 5rem;
+    padding-bottom: 21rem;
+}
+
+/*======================INTRO========================*/
+.intro{
+    background:linear-gradient(to left, #1e5657,#3a4e1a);
+    border-radius: 3rem ;
+    box-shadow: inset 0px 0px 20px #000000;
+    margin: 5rem 15rem;
+}
+
+h2{
+    font-family: "Playwrite AU QLD";
+        text-align: center;   
+            padding: 1rem 10rem;
+    
+}
+
+/*======================BUTTON========================*/
+.buttonRandom{
+       text-align: center;
+    align-items: center;
+    box-shadow: inset 0px 0px 20px black;
+    margin: auto 38rem;
+    background: linear-gradient(to left, black, #2d1803,#2d1803, black);
+    padding: 0.5rem 0;
+    border-radius: 1rem;
+    }
+
+button {
+    border: 6px solid #535353;
+    transition: 0.25s ease;
+    background-color: #7e7e7e;
+    border-radius: 1rem;
+    padding: 10px;
+    font-size: 2rem;
+     box-shadow: inset 0px 0px 20px black;
+}
+
+.click-button{
+    border-radius: 3rem;
+    background: linear-gradient(to left, #031400, #003804,#003804, #031400);
+   border: 6px double rgb(37, 21, 0);
+       transition: 0.6s;
+    
+}
+
+/*======================STAT========================*/
+
+.nameHeroBox{
+font-size: 2rem;
+font-family: Cambria, Cochin, Georgia, Times, 'Bellavoir Serif', serif;
+}
+
+.table {
+    display: flex;
+    flex-wrap: wrap;
+     justify-content: space-evenly;
+    gap: 2rem;
+    margin: 1.5rem auto;
+    width: 90vw;
+}
+
+.statclass, .raceHistory {
+    
+    color: aliceblue;
+    font-size: 2rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: minmax(60px, auto);
+    gap: 2rem;
+    width: 100%; 
+    max-width: 400px; 
+    min-height: 400px; 
+    padding: 2rem 4rem; 
+    text-align: center;
+    justify-content: center;
+    background: linear-gradient(to top, #1a1919, #7e7e7e, #1a1919);
+    box-shadow: inset 6px 2px 20px black;
+    border-radius: 2rem;
+    font-weight: bolder;
+}
+
+.yourHistoryClass{
+    
+    color: aliceblue;
+    font-size: 2rem;
+    display: grid
+;
+    grid-template-columns: 1fr;
+    grid-auto-rows: minmax(60px, auto);
+    width: 28rem;
+    min-height: 20rem;
+    margin: 2rem 45rem;
+    padding: 2rem 13rem;
+    text-align: center;
+    background: linear-gradient(to top, #1a1919, #7e7e7e, #1a1919);
+    box-shadow: inset 6px 2px 20px black;
+    border-radius: 2rem;
+    font-weight: bolder;
+    justify-content: center;
+}
+
+p{
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+    text-align: left;
+    text-decoration: underline;
+    font-family: "Playwrite AU QLD";
+}
+
+
+/*======================RACE========================*/
+.origines {
+
+}
+
+.🏹Archer {
+    color: #8f5b1b;
+    font-family: "Playwrite AU QLD";
+    font-size: 2rem;
+    background: linear-gradient(to bottom, #18230F, #2f4522, #18230F);
+}
+
+.⚔️Guerrier{
+color: #e1e1e1;
+    font-family: "Playwrite AU QLD";
+    font-size: 2rem;
+    background: linear-gradient(to bottom, #1D1616, #8E1616, #1D1616);
+}
+
+.🪄Magicien{
+color: #FDF5AA;
+    font-family: "Playwrite AU QLD";
+    font-size: 2rem;
+    background: linear-gradient(to bottom, #113F67, #34699A, #113F67);
+}
+
+.🗡️Voleur{
+color: #FAEB92;
+    font-family: "Playwrite AU QLD";
+    font-size: 2rem;
+    background: linear-gradient(to bottom, #000000, #5c198b, #000000);
+}
+
+.🛡️Tank{
+color: #F7F7F7;
+    font-family: "Playwrite AU QLD";
+    font-size: 2rem;
+    background: linear-gradient(to bottom, #854836 ,#da9825, #854836);
+}
+
+.🐺Druide{
+color: #F7F7F7;
+    font-family: "Playwrite AU QLD";
+    font-size: 2rem;
+    background: linear-gradient(to bottom, #0b300a ,#197118, #0b3a0a);
+}
+
+.🧪Alchimiste{
+color: #F7F7F7;
+    font-family: "Playwrite AU QLD";
+    font-size: 2rem;
+    background: linear-gradient(to bottom, #0b2033 ,#183c71, #0b2033);
+}
+
+/*======================HISTORY========================*/
+ .origine, .weapon, .weaponSecond, .nameHero{
+    color: #F7F7F7;
+    font-family: "Playwrite AU QLD";
+    font-size: 2rem;
+    background: #1a1919;
+    box-shadow: inset 6px 2px 20px black;
+    border-radius: 1rem;
+   } 
+
+   .textHisory{
+    color: #F7F7F7;
+    font-family: "Playwrite AU QLD";
+    font-size: 1rem;
+    background: #1a1919;
+    box-shadow: inset 6px 2px 20px black;
+    border-radius: 1rem;
+     width: 50rem;
+    height: 10rem;    
+    padding: 0.5rem;
+    
+}
+.yourHistory{
+        display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+#nom{
+    border-radius: 2rem;
+    background: #1a1919;
+    color: #F7F7F7;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+ /*==========================RESPONSIV===========================*/
+
+ @media (max-width: 768px){
+    body {
+        margin: 1rem;
+        max-width: 100%;
+    }
+
+    .banner {
+        height: 300px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    h1 {
+        font-size: 2rem;
+        padding: 0;
+    }
+
+    .intro {
+        margin: 2rem 1rem;
+    }
+
+    h2 {
+        padding: 1rem;
+    }
+
+    .buttonRandom {
+        margin: 1rem auto;
+        width: 90%;
+    }
+
+    .table {
+        width: 95vw;
+        gap: 1rem;
+    }
+
+    .statclass, .raceHistory {
+        max-width: 100%;
+        padding: 1rem 2rem;
+    }
+
+    .yourHistoryClass {
+        width: 90%;
+        margin: 2rem auto;
+        padding: 2rem;
+    }
+
+    .textHisory {
+        width: 90%;
+    }
+}
