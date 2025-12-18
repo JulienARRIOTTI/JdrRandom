@@ -1,6 +1,7 @@
 <script>
 
   import './assets/style.css';
+  import bannier from '../public/image/bannierJDR.png';
 
   import HeroButton from "./components/HeroButton.svelte";
   import HeroStats from "./components/HeroStats.svelte";
@@ -33,7 +34,7 @@
   }
 </script>
 
-<header class="banner">
+<header class="banner" style="background: url({bannier}) no-repeat; background-size: cover; background-position: center;">
   <h1>JEUX De RÔLE</h1>
 </header>
 

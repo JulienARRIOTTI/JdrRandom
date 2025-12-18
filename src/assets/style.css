@@ -12,7 +12,6 @@ body {
 /*======================BANNER========================*/
 
 .banner {
-    background: url(./image/bannierJDR.png) no-repeat;
     background-size: cover;
     background-position: center;
     height: 600px;
